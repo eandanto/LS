@@ -241,6 +241,50 @@ ol {
         color: #fff;
     }
 
+.site-btn3 {
+    display: inline-block;
+    font-size: 11px;
+    min-width: 75px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    color: #fff;
+    border: none;
+    background-color: #000;
+    /*margin-right: 15px;*/
+    z-index: 1;
+}
+
+    .site-btn3.btn-fade {
+        background-color: #979797;
+    }
+
+    .site-btn3.btn-line {
+        background: none;
+        border: 2px solid #000;
+        color: #000;
+        padding: 13px 10px;
+    }
+
+        .site-btn2.btn-line:hover {
+            color: #000;
+        }
+
+    .site-btn3.btn-line-fade {
+        background: none;
+        border: 2px solid #979797;
+        color: #979797;
+        padding: 13px 10px;
+    }
+
+        .site-btn2.btn-line-fade:hover {
+            color: #979797;
+        }
+
+    .site-btn3:hover {
+        color: #fff;
+    }
+
 /*===  Accordion  ===*/
 .accordion-area .panel {
     margin-bottom: 30px;

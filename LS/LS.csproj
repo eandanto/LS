@@ -142,6 +142,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\LiveController.cs" />
     <Compile Include="Controllers\LeaderboardsController.cs" />
     <Compile Include="Controllers\TopUpController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -166,6 +167,12 @@
     <Content Include="Resources\Images\1.png" />
     <Content Include="Resources\Images\2.JPG" />
     <Content Include="Resources\Images\3.jpg" />
+    <Content Include="Resources\Images\gift-1.jpg" />
+    <Content Include="Resources\Images\gift-2.png" />
+    <Content Include="Resources\Images\gift-3.png" />
+    <Content Include="Resources\Images\gift-4.png" />
+    <Content Include="Resources\Images\gift-5.png" />
+    <Content Include="Resources\Images\gift-6.png" />
     <Content Include="Resources\Images\gold.png" />
     <Content Include="Resources\Images\topup-catalog.png" />
     <Content Include="Resources\Images\live-1.jpg" />
@@ -182,6 +189,7 @@
     <Content Include="Resources\Images\live-4.jpg" />
     <Content Include="Resources\Images\live-5.jpg" />
     <Content Include="Resources\Images\live-6.jpeg" />
+    <Content Include="Resources\Images\pevita.gif" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -219,6 +227,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\TopUp\Index.cshtml" />
+    <Content Include="Views\Live\Index.cshtml" />
     <Content Include="Views\Leaderboards\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
