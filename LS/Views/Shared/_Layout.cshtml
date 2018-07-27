@@ -30,13 +30,13 @@
     <header class="header-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-3">
+                <div class="col-lg-4 col-md-2 col-sm-2">
                     <div class="logo">
                         <h2 class="site-logo">Live Stream</h2>
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-9">
-                    <a href="#" class="site-btn header-btn" data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-in" style="color:white"></i> Login</a>
+                <div class="col-lg-8 col-md-10 col-sm-10">
+                    <a href="#" class="site-btn header-btn btnLive" data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-in" style="color:white"></i> Login</a>
                     <nav class="main-menu">
                         <ul>
                             <li><a href="/home/index">Home</a></li>
@@ -52,8 +52,19 @@
             <i class="fa fa-bars"></i>
         </div>
     </header>
-    <div class="container text-center">
-        <a href="#" class="site-btn"><i class="fa fa-video-camera" style="color:white"></i> Go Live!</a>
+    @*<div class="container text-center" style="padding-top:10px">
+        <a href="#" class="site-btn btnLoginMobile" data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-in" style="color:white"></i> Login</a>
+    </div>*@
+    <div class="container text-center" style="padding-top:10px">
+        <a href="#" class="site-btn btnLive" style="padding-right:0px"><i class="fa fa-video-camera" style="color:white"></i> Go Live!</a>
+        <div class="row btnLoginMobile">
+            <div class="col-lg-6 col-xs-6">
+                <a href="#" class="site-btn2" style="padding-right:0px"><i class="fa fa-video-camera" style="color:white"></i> Go Live!</a>
+            </div>
+            <div class="col-lg-6 col-xs-6">
+                <a href="#" class="site-btn2" data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-in" style="color:white"></i> Login</a>
+            </div>
+        </div>
     </div>
     @RenderBody()
     <!-- footer section start -->
